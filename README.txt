@@ -28,3 +28,5 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+		
+	Edited By : Daniel Santos (Dnleventos.com)

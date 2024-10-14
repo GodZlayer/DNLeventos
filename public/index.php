@@ -7,31 +7,6 @@ define('LARAVEL_START', microtime(true));
 
 /*
 |--------------------------------------------------------------------------
-| Google Tag Manager
-|--------------------------------------------------------------------------
-|
-| This section includes the Google Tag Manager script for tracking.
-|
-*/
-?>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SPVCZHZSJS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-SPVCZHZSJS');
-</script>
-<script>
-function consentGrantedAdStorage() {
-  gtag('consent', 'update', {
-    'ad_storage': 'granted'
-  });
-  }
-</script>
-<?php
-/*
-|--------------------------------------------------------------------------
 | Check If The Application Is Under Maintenance
 |--------------------------------------------------------------------------
 |
@@ -42,7 +17,7 @@ function consentGrantedAdStorage() {
 */
 
 if (file_exists(__DIR__ . '/../storage/framework/maintenance.php')) {
-    require __DIR__ . '/../storage/framework/maintenance.php';
+  require __DIR__ . '/../storage/framework/maintenance.php';
 }
 
 /*
@@ -74,7 +49,7 @@ $app = require_once __DIR__ . '/../bootstrap/app.php';
 $kernel = $app->make(Kernel::class);
 
 $response = tap($kernel->handle(
-    $request = Request::capture()
+  $request = Request::capture()
 ))->send();
 
 $kernel->terminate($request, $response);

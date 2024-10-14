@@ -3,8 +3,6 @@
 {{-- this style will be applied when the direction of language is right-to-left --}}
 @includeIf('backend.partials.rtl-style')
 
-    
-@include('cookie-consent')
 @section('content')
   <div class="page-header">
     <h4 class="page-title">{{ __('Cookie Alert') }}</h4>

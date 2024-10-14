@@ -29,6 +29,9 @@ class MercadoPagoController extends Controller
       'fname' => 'required',
       'lname' => 'required',
       'email' => 'required',
+      'phone' => 'required',
+      'country' => 'required',
+      'address' => 'required',
       'gateway' => 'required',
     ];
 
@@ -76,6 +79,12 @@ class MercadoPagoController extends Controller
       'fname' => $request->fname,
       'lname' => $request->lname,
       'email' => $request->email,
+      'phone' => $request->phone,
+      'country' => $request->country,
+      'state' => $request->state,
+      'city' => $request->city,
+      'zip_code' => $request->city,
+      'address' => $request->address,
       'paymentMethod' => 'Mercadopago',
       'gatewayType' => 'online',
       'paymentStatus' => 'completed',

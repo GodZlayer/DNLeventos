@@ -19,6 +19,9 @@ class OfflineController extends Controller
       'fname' => 'required',
       'lname' => 'required',
       'email' => 'required',
+      'phone' => 'required',
+      'country' => 'required',
+      'address' => 'required',
       'gateway' => 'required',
     ]);
     $offlineGateway = OfflineGateway::find($request->gateway);
@@ -28,7 +31,7 @@ class OfflineController extends Controller
       $rules = [
         'attachment' => [
           'required',
-          'mimes:jpg,jpeg,png,pdf'
+          'mimes:jpg,jpeg,png'
         ]
       ];
 
@@ -72,6 +75,12 @@ class OfflineController extends Controller
       'fname' => $request->fname,
       'lname' => $request->lname,
       'email' => $request->email,
+      'phone' => $request->phone,
+      'country' => $request->country,
+      'state' => $request->state,
+      'city' => $request->city,
+      'zip_code' => $request->city,
+      'address' => $request->address,
       'paymentMethod' => $offlineGateway->name,
       'gatewayType' => 'offline',
       'paymentStatus' => 'pending',

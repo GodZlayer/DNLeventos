@@ -322,22 +322,3 @@ Route::get('/{slug}', 'FrontEnd\PageController@page')->name('dynamic_page')->mid
 Route::fallback(function () {
   return view('errors.404');
 })->middleware('change.lang');
-
-
-/*
-|--------------------------------------------------------------------------
-| PIX QR CODE
-|--------------------------------------------------------------------------
-*/
-Route::post('/payment/pix/notify', [PixController::class, 'notify'])->name('event_booking.pix.notify');
-Route::get('/payment/pix/qr', [PixController::class, 'showQrCode'])->name('event_booking.pix.qr');
-
-
-
-
-/*
-|--------------------------------------------------------------------------
-| Test Routes for PDF & QR Code
-|--------------------------------------------------------------------------
-*/
-Route::get('/test-manual-pdf-generation', 'BackEnd\Event\EventBookingController@testManualPDFGeneration')->name('test.manual.pdf');

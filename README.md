@@ -1,62 +1,34 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p align="center"><a href="https://dnleventos.com" target="_blank"><img src="https://dnleventos.com/logo.svg" width="400"></a></p> <p align="center"> <a href="https://dnleventos.com/status"><img src="https://dnleventos.com/build-status.svg" alt="Build Status"></a> <a href="https://dnleventos.com/downloads"><img src="https://dnleventos.com/downloads.svg" alt="Total Downloads"></a> <a href="https://dnleventos.com/version"><img src="https://dnleventos.com/version.svg" alt="Latest Stable Version"></a> <a href="https://dnleventos.com/license"><img src="https://dnleventos.com/license.svg" alt="License"></a> </p>
+Sobre o DNL Eventos - Evento 2.0
+O DNL Eventos é um sistema inovador para a gestão e venda de ingressos de eventos, com diferenciais que tornam a experiência de compra simples, rápida e segura. O Evento 2.0 é a nossa versão mais recente, focada em proporcionar total segurança no processo de pagamento, gerar ingressos personalizados e garantir recebimentos instantâneos para os organizadores.
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Com o DNL Eventos, você tem acesso a:
 
-## About Laravel
+Geração automática de QR Codes e PDFs para cada ingresso vendido, permitindo o controle fácil de acesso no evento.
+Integração direta com o Mercado Pago, garantindo segurança no pagamento e recebimento instantâneo dos valores antes do evento.
+Taxa fixa de 10% por transação, sem valores mínimos, o que oferece um custo altamente competitivo em comparação com outros sistemas do mercado.
+Principais Funcionalidades
+Geração de Tickets e QR Codes: Cada ingresso é emitido com um QR Code exclusivo, enviado junto com um PDF por e-mail, facilitando a validação no evento.
+Integração com Mercado Pago: Sistema de pagamento confiável e amplamente utilizado, que permite o recebimento dos valores imediatamente após a compra, sem necessidade de aguardar o término do evento.
+Taxa Competitiva: Com uma taxa fixa de 10%, sem custos adicionais ou mínimos exigidos, o DNL Eventos oferece uma solução acessível para organizadores de todos os tamanhos.
+Aprenda Mais
+A documentação completa sobre o DNL Eventos pode ser encontrada em dnleventos.com/docs. Nossa equipe está disponível para oferecer suporte e orientações sobre a implementação do sistema.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Patrocinadores
+Gostaríamos de agradecer aos nossos patrocinadores por apoiar o desenvolvimento do DNL Eventos. Se você está interessado em patrocinar o projeto, visite nossa página no Patreon.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Parceiros Premium
+Vehikl
+Cubet Techno Labs
+Webdock, Fast VPS Hosting
+Contribuições
+Obrigado por considerar contribuir com o DNL Eventos! Nosso guia de contribuição pode ser encontrado na documentação oficial.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Código de Conduta
+Para garantir que nossa comunidade seja acolhedora para todos, revise e siga nosso Código de Conduta.
 
-## Learning Laravel
+Vulnerabilidades de Segurança
+Se você descobrir uma vulnerabilidade de segurança no DNL Eventos, envie um e-mail para nossa equipe via seguranca@dnleventos.com. Todas as vulnerabilidades serão tratadas prontamente.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Licença
+O DNL Eventos é um software open-source licenciado sob a licença MIT.

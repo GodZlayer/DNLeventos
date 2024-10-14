@@ -367,6 +367,7 @@ class OnlineGatewayController extends Controller
   {
     $rules = [
       'status' => 'required',
+      'country' => 'required',
       'server_key' => 'required',
       'profile_id' => 'required',
       'api_endpoint' => 'required'
@@ -380,6 +381,7 @@ class OnlineGatewayController extends Controller
 
     $information['server_key'] = $request->server_key;
     $information['profile_id'] = $request->profile_id;
+    $information['country'] = $request->country;
     $information['api_endpoint'] = $request->api_endpoint;
 
     $data = OnlineGateway::where('keyword', 'paytabs')->first();

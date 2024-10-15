@@ -73,63 +73,7 @@
                   @enderror
                 </div>
               </div>
-              <div class="col-sm-6">
-                <div class="form-group">
-                  <label for="address">{{ __('Phone') }} *</label>
-                  <input type="text" name="phone" id="phone" class="form-control"
-                    value="{{ old('phone', $authUser != null ? $authUser->phone : '') }}"
-                    placeholder="{{ __('Phone Number') }}">
-                  @error('phone')
-                    <p class="text-danger">{{ $message }}</p>
-                  @enderror
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="form-group">
-                  <label for="state">{{ __('Country') }} *</label>
-                  <input type="text" name="country"
-                    value="{{ old('country', $authUser != null ? $authUser->country : '') }}" class="form-control"
-                    placeholder="{{ __('Country') }}">
-                  @error('country')
-                    <p class="text-danger">{{ $message }}</p>
-                  @enderror
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="form-group">
-                  <label for="state">{{ __('State') }}</label>
-                  <input type="text" name="state"
-                    value="{{ old('state', $authUser != null ? $authUser->state : '') }}" class="form-control"
-                    placeholder="{{ __('State') }}">
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="form-group">
-                  <label for="city">{{ __('City') }} *</label>
-                  <input type="text" name="city"
-                    value="{{ old('city', $authUser != null ? $authUser->city : '') }}" class="form-control"
-                    placeholder="{{ __('City') }}">
-                  @error('city')
-                    <p class="text-danger">{{ $message }}</p>
-                  @enderror
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="form-group">
-                  <label for="company">{{ __('Zip/Post Code') }}</label>
-                  <input type="text" name="zip_code"
-                    value="{{ old('zip_code', $authUser != null ? $authUser->zip_code : '') }}" class="form-control"
-                    placeholder="{{ __('Zip/Post Code') }}">
-
-                </div>
-              </div>
-              <div class="col-sm-12">
-                <label for="">{{ __('Address') }} * </label>
-                <textarea name="address" class="form_control" cols="2" rows="3" placeholder="{{ __('Address') }}">{{ old('address', $authUser != null ? $authUser->address : '') }}</textarea>
-                @error('address')
-                  <p class="text-danger">{{ $message }}</p>
-                @enderror
-              </div>
+              
             </div>
           </div>
           <div class="col-lg-4">
